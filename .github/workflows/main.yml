@@ -12,7 +12,7 @@ jobs:
         - name: 'Login via Azure CLI'
           uses: Azure/login@v1.1
           with:
-            creds: '{"clientId":"${{ secrets.CLIENT_ID }}","clientSecret":"${{ secrets.CLIENT_SECRET }}","subscriptionId":"${{ secrets.SUBSCRIPTION_ID }}","tenantId":"${{ secrets.TENANT_ID }}"}'
+            creds: '{"clientId":"f06233c2-a6a4-44fb-b1bc-d763175dd749","clientSecret":"X3auL9~o54m9Z1doOlztF~W51wPdxJY1iy","subscriptionId":"16f166e2-849e-4a6b-95e9-50735f1e655a","tenantId":"3cc50ecc-5ff5-434b-952a-757c6f740418"}'
 
           
        ## - name: 'Login via Azure CLI'
